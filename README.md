@@ -73,23 +73,7 @@ Replace the placeholder images with your own:
 
 Your site will be available at: `https://yourusername.github.io/your-repo-name`
 
-## Custom Domain Setup
-
-To use your own domain name:
-
-1. **Purchase a domain** from a domain registrar
-2. **Add a CNAME file** to your repository root (this is already included)
-3. **Configure DNS** with your domain provider:
-   - Add a CNAME record pointing to `yourusername.github.io`
-   - Or add A records pointing to GitHub's IP addresses:
-     - 185.199.108.153
-     - 185.199.109.153
-     - 185.199.110.153
-     - 185.199.111.153
-4. **Update GitHub Pages settings**:
-   - Go to repository Settings > Pages
-   - Enter your custom domain in the "Custom domain" field
-   - Enable "Enforce HTTPS"
+That's it! Your portfolio will be live on GitHub Pages within a few minutes.
 
 ## File Structure
 
@@ -98,7 +82,6 @@ portfolio/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles
 ├── script.js           # JavaScript functionality
-├── CNAME              # Custom domain configuration
 ├── README.md          # This file
 └── .gitignore         # Git ignore file
 ```
