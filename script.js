@@ -155,7 +155,7 @@ function showNotification(message, type = 'info') {
 
 // Animate elements on scroll
 function animateOnScroll() {
-    const elements = document.querySelectorAll('.skill-category, .project-card, .about-stats');
+    const elements = document.querySelectorAll('.skill-category, .project-card, .about-stats, .education-item, .cert-item');
     
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
